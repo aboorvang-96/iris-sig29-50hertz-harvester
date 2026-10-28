@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris-sig29-harvester"
+version = "1.0.0"
+description = "50Hertz offshore grid-connection signal harvester for IRIS-SIG-29"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12,<5",
+    "lxml>=5.0,<7",
+    "psycopg[binary]>=3.1,<4",
+    "pyproj>=3.6,<4",
+    "python-dotenv>=1.0,<2",
+    "requests>=2.31,<3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

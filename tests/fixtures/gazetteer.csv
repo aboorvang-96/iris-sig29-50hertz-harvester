@@ -1,0 +1,4 @@
+name,lat,lon,precision,source
+Lubmin,54.14481,13.64847,approximate,"OpenStreetMap contributors (ODbL), village centre (approximate, substation not found by name), https://www.openstreetmap.org/search?query=Lubmin&zoom=4&minlon=52.55859375000001&minlat=-3.864254615721396&maxlon=143.78906250000003&maxlat=43.70759350405296#map=13/54.14481/13.64847, accessed 2026-10-28"
+Gnewitz,54.0788474,12.5132459,approximate,"OpenStreetMap contributors (ODbL), village centre (approximate, substation not resolved by name), https://nominatim.openstreetmap.org/search?q=Gnewitz%2C+Mecklenburg-Vorpommern%2C+Germany&format=jsonv2, accessed 2026-10-28"
+Stilow,54.0887941,13.5721214,approximate,"OpenStreetMap contributors (ODbL), village centre (approximate, substation not resolved by name), https://nominatim.openstreetmap.org/search?q=Stilow%2C+Mecklenburg-Vorpommern%2C+Germany&format=jsonv2, accessed 2026-10-28"
